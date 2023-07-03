@@ -182,7 +182,7 @@ stock void DisplayInstructorHint(int target, float fTime, float fHeight, float f
 
 	DispatchKeyValue(HintEntity[target], "hint_pulseoption", "2");
 	//DispatchKeyValue(HintEntity[target], "hint_alphaoption", "1");
-	DispatchKeyValue(HintEntity[target], "hint_shakeoption", "1");
+	//DispatchKeyValue(HintEntity[target], "hint_shakeoption", "1");
 
 	DispatchSpawn(HintEntity[target]);
 	AcceptEntityInput(HintEntity[target], "ShowHint");
